@@ -1,0 +1,12 @@
+function countDevelopers(list) {
+  let count=0;
+  
+  count = list.reduce((num,curr)=>{
+   if (curr.continent === "Europe" && curr.language === "JavaScript"){
+     num+=1;
+   }
+  return num
+  },0)
+  
+  return count;
+}
