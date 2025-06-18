@@ -10,3 +10,4 @@ function validateHello(greetings) {
 
   return res;
 }
+//this function returns whether we have done a greeting or not in a message
