@@ -1,0 +1,22 @@
+ul {
+  display: grid;
+  grid-template-columns: repeat(5, 60px);
+  grid-template-rows: repeat(2, 60px);
+  gap: 15px;
+  padding: 0;
+  justify-content: center;
+}
+
+li {
+  width: 60px;
+  height: 60px;
+  background-color: rgb(138, 41, 41);
+  border-radius: 50%;
+  list-style: none;
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+li:hover {
+  transform: scale(1.2);
+}
