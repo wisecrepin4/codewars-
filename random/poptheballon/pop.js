@@ -1,4 +1,4 @@
-const listItems = document.querySelectorAll("li");
+const listItems = document.getElementsByTagName("li");
 
 for (let i = 0; i < listItems.length; i++) {
   listItems[i].addEventListener("mouseover", (e) => {
