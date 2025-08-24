@@ -5,3 +5,4 @@ function getCount(str) {
     return vo.includes(b) ? a + 1 : a;
   }, 0);
 }
+//counting varables in the given string
