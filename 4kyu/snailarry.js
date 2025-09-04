@@ -16,4 +16,4 @@ snail = function (array) {
   }
   return result;
 };
-// this is a solution for snail array
+// this is a solution for the Snail array run the function
